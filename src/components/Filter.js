@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-function Filter({onCategoryChange}) {
+function Filter({ onCategoryChange }) {
   return (
     <div className="Filter">
       <select name="filter" onChange={onCategoryChange}>
@@ -10,7 +10,7 @@ function Filter({onCategoryChange}) {
         <option value="Dessert">Dessert</option>
       </select>
     </div>
-  )
+  );
 }
 
-export default Filter
+export default Filter;
